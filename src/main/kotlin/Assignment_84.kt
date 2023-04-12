@@ -46,5 +46,5 @@ class Robot(var x: Int, var y: Int, var movement: String) {
 fun main() {
     val robot = Robot(7,3, "NORTH")
     robot.run("RAALAL")
-    println(robot) // Expected output: 9 4 WEST
+    println(robot)
 }
